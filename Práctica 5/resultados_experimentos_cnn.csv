@@ -1,0 +1,11 @@
+Cant_filtros,Tamaño_kernel,Stride,Funcion_activacion,MaxPooling,Total_parametros,Epocas,Accuracy_Train,Accuracy_Test
+4,3x3,1,relu,Si,Error,Error,Error,Error
+16,3x3,1,relu,Si,Error,Error,Error,Error
+64,3x3,1,relu,Si,Error,Error,Error,Error
+4,7x7,1,relu,Si,Error,Error,Error,Error
+16,7x7,1,relu,Si,Error,Error,Error,Error
+64,7x7,1,relu,Si,Error,Error,Error,Error
+64,3x3,2,relu,No,Error,Error,Error,Error
+64,3x3,3,relu,No,Error,Error,Error,Error
+64,3x3,1,tanh,Si,Error,Error,Error,Error
+64,3x3,1,sigmoid,Si,Error,Error,Error,Error
