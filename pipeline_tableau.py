@@ -16,7 +16,7 @@ tf.random.set_seed(5)
 def run_pipeline():
 
     # 1. Ingesta y Preprocesamiento de Datos
-    df = pd.read_csv('/home/santi/Documentos/Cuarto/Deep Learning/repositorio/Datos/creditcard.csv')
+    df = pd.read_csv('./Datos/creditcard.csv')
     
     # Escalado de Amount para que el modelo no se sesgue por montos altos
     df['Amount'] = StandardScaler().fit_transform(df['Amount'].values.reshape(-1, 1))
